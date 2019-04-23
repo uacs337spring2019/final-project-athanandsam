@@ -74,7 +74,7 @@
                         },
                         body : JSON.stringify(send)
                 };
-                let url = "https://heroku.com/deploy?template=https://github.com/uacs337spring2019/final-project-athanandsam:";
+                let url = "https://heroku.com/deploy?template=https://github.com/uacs337spring2019/final-project-athanandsam:" + process.env.PORT;
                 fetch(url, fetchOptions)
                         .then(checkStatus)
                         .then(function(responseText) {
@@ -229,7 +229,7 @@
          **/
         function isMine(piece, m) {
 		let mines = [];
-        	let url = "https://heroku.com/deploy?template=https://github.com/uacs337spring2019/final-project-athanandsam:";
+        	let url = "https://heroku.com/deploy?template=https://github.com/uacs337spring2019/final-project-athanandsam:" + process.env.PORT;
                 fetch(url)
                         .then(checkStatus)
                         .then(function(responseText) {
