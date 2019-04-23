@@ -1,8 +1,6 @@
 {
-"name": "Node.js Sample",
-"description": "A barebones Node.js app using Express 4",
+"name": "ms.js",
+"description": "A basic minesweeper game",
 "repository": "https://github.com/uacs337spring2019/final-project-athanandsam",
-"logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg"
-,
 "keywords": ["node", "express", "static"]
 }
