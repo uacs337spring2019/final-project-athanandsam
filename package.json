@@ -2,7 +2,7 @@
   "name": "finalproject",
   "version": "1.0.0",
   "description": "example",
-  "main": "ms_service.js",
+  "main": "ms.html",
   "engines": { 
     "node": "11.11.0"
   },
