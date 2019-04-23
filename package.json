@@ -1,6 +1,6 @@
 {
   "name": "finalproject",
-  "version": "1.0.0",
+  "version": "11.11.0",
   "description": "example",
   "main": "ms_service.js",
   "dependencies": {
