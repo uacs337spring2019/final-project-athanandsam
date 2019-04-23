@@ -11,7 +11,6 @@
 	let totMines = 0;
 
 	window.onload = function() {
-		console.log("what");
 		let markButton = document.getElementById("mark");
 		let unmarkButton = document.getElementById("unmark");
 		let newGameButton = document.getElementById("newGame");
