@@ -80,7 +80,7 @@
                         },
                         body : JSON.stringify(send)
                 };
-                let url = "https://minesweeper-v1.herokuapp.com:" + process.env.PORT;
+                let url = "https://minesweeper-v1.herokuapp.com:";
                 fetch(url, fetchOptions)
                         .then(checkStatus)
                         .then(function(responseText) {
@@ -249,7 +249,7 @@
 	 ** 	     the last selected tile is a mine
          **/
         function isMine(piece, m) {
-        	let url = "https://minesweeper-v1.herokuapp.com:" + process.env.PORT;
+        	let url = "https://minesweeper-v1.herokuapp.com:";
                 fetch(url)
                         .then(checkStatus)
                         .then(function(responseText) {
