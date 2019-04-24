@@ -4,6 +4,7 @@
   "description": "example",
   "main": "ms.js",
   "scripts": {
+    "start": "node final_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": { 
@@ -16,7 +17,6 @@
     "fs": "^0.0.1-security",
     "mysql": "^2.17.0"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uacs337spring2019/final-project-athanandsam.git"
