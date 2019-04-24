@@ -4,7 +4,7 @@
   "description": "example",
   "main": "ms.js",
   "scripts": {
-    "start": "node final_server.js",
+    "start": "node ms_server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": { 
