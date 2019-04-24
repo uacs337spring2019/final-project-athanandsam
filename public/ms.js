@@ -80,7 +80,7 @@
                         },
                         body : JSON.stringify(send)
                 };
-                let url = "http://localhost:3000/"; //https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fuacs337spring2019%2Ffinal-project-athanandsam:process.env.PORT
+                let url = "https://minesweeper-v1.herokuapp.com:" + process.env.PORT;
                 fetch(url, fetchOptions)
                         .then(checkStatus)
                         .then(function(responseText) {
@@ -249,7 +249,7 @@
 	 ** 	     the last selected tile is a mine
          **/
         function isMine(piece, m) {
-        	let url = "http://localhost:3000/"; //https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fuacs337spring2019%2Ffinal-project-athanandsam:process.env.PORT
+        	let url = "https://minesweeper-v1.herokuapp.com:" + process.env.PORT;
                 fetch(url)
                         .then(checkStatus)
                         .then(function(responseText) {
